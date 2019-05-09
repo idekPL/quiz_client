@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="183.0" prefWidth="516.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="quiz.client.FXMLDocumentController">
+   <children>
+      <Label layoutX="36.0" layoutY="84.0" text="Twój nick:" />
+      <TextField id="nick_txt" fx:id="nick_txt" layoutX="130.0" layoutY="80.0" />
+      <Label layoutX="36.0" layoutY="122.0" text="Odpowiedź:" />
+      <TextField id="odpowiedz_txt" fx:id="odpowiedz_txt" layoutX="130.0" layoutY="118.0" />
+      <Button id="send_odp" fx:id="send_odp" layoutX="310.0" layoutY="81.0" mnemonicParsing="false" onAction="#send_message" prefHeight="48.0" prefWidth="122.0" text="Wyślij odpowiedź" />
+   </children>
+</AnchorPane>
